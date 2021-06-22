@@ -1,4 +1,5 @@
 using System.IO;
+using System;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using IIG.FileWorker;
 
@@ -18,7 +19,6 @@ namespace BlackBoxReworked
             string[] actual = BaseFileWorker.ReadLines(path);
             string[] expected = File.ReadAllLines(path);
             string randomLine = "wegqrbasdbqer";
-
             // length checking
 
             Assert.IsTrue(actual.Length > 0 && expected.Length > 0);
