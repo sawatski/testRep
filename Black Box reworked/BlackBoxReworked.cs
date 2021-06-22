@@ -63,7 +63,7 @@ namespace BlackBoxReworked
             //testing Write method
             string path1 = $"{currentDirectory}\\TestedFiles\\Writing.txt";
             string path2 = $"{currentDirectory}\\TestedFiles\\UkrainianText.txt";
-            string incorrectPath = $"{currentDirectory}\\TestedFiles\\incorrectData1";
+            string incorrectPath = $"{currentDirectory}\\TestedFiles\\incorrectDatdandfgfmndt1";
             string data = "Easy texttT";
             string randomData = "blablablaqebqrbbeb";
 
